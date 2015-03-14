@@ -1,0 +1,88 @@
+Settings:
+  EnabledWorlds:
+  - World
+  Levels:
+    1: 100
+    2: 500
+    3: 1000
+    4: 1600
+    5: 2300
+    6: 3100
+    7: 4000
+    8: 5000
+    9: 6100
+    10: 7300
+    11: 7400
+    12: 7800
+    13: 8300
+    14: 8900
+    15: 9600
+    16: 10400
+    17: 11300
+    18: 12300
+    19: 13400
+    20: 14600
+  Ores:
+    Diamond:
+      RespawnTime: 180
+      CooldownMaterial: COBBLESTONE
+      LevelToMine: 10
+      ExpForMining: 12
+      MiningFailure: 50%
+      EnchantmentFailure: 50%
+    Emerald:
+      RespawnTime: 140
+      CooldownMaterial: COBBLESTONE
+      LevelToMine: 9
+      ExpForMining: 11
+      MiningFailure: 50%
+      EnchantmentFailure: 50%
+    Lapis:
+      RespawnTime: 45
+      CooldownMaterial: COBBLESTONE
+      LevelToMine: 3
+      ExpForMining: 7
+      MiningFailure: 50%
+      EnchantmentFailure: 50%
+    Redstone:
+      RespawnTime: 60
+      CooldownMaterial: COBBLESTONE
+      LevelToMine: 8
+      ExpForMining: 10
+      MiningFailure: 50%
+      EnchantmentFailure: 50%
+    Gold:
+      RespawnTime: 85
+      CooldownMaterial: COBBLESTONE
+      LevelToMine: 6
+      ExpForMining: 8
+      MiningFailure: 50%
+    Iron:
+      RespawnTime: 70
+      CooldownMaterial: COBBLESTONE
+      LevelToMine: 1
+      ExpForMining: 5
+      MiningFailure: 50%
+    Coal:
+      RespawnTime: 10
+      CooldownMaterial: COBBLESTONE
+      LevelToMine: 0
+      ExpForMining: 3
+      MiningFailure: 50%
+      EnchantmentFailure: 50%
+Balancing:
+  Global:
+    #This mode enables failure rate of specified percentage per ore/(pickaxe level - level req. to mine)
+    Enabled: true
+    TempMaterial: BEDROCK
+  Enchantment:
+    #This mode enables possible failure rate of enchantments taking effect. Rate specified per ore/(pickaxe level - level req. to mine)
+    Enabled: true
+    #This material will be displayed for 1/4 of the respawn time if enchantments fail
+    TempMaterial: NETHER_BRICK
+  Redstone:
+    #This mode sets the default amount of redstone to 1 piece with regular fortune effects
+    Enabled: true
+  Lapis:
+    #This mode sets the default amount of lapis to 1 piece with regular fortune effects
+    Enabled: true

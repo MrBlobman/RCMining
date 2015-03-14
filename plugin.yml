@@ -1,0 +1,10 @@
+name: RCMining
+main: me.MrBlobman.RCMining.RCMining
+version: 1.0.0
+description: >
+             Respawning ores!
+commands:
+  rcmining:
+    description: Main command.
+  rcm:
+    description: Main command alias.
